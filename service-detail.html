@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title id="page-title">Loading...</title>
+  <meta name="description" id="meta-description" content="" />
+
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="/assets/css/style.css" rel="stylesheet" />
+  <!-- Add any other CSS you want -->
+
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
+</head>
+
+<body>
+  <h1 id="dynamic-page-title">Loading...</h1>
+  <div id="breadcrumb-title">Loading breadcrumb...</div>
+
+  <!-- ✅ The container where the template will be rendered -->
+  <div id="service-container"></div>
+
+  <!-- ✅ Handlebars Template -->
+  <script id="service-template" type="text/x-handlebars-template">
+    <div class="col-lg-8 col-md-12 col-sm-12 content-side">
+      <div class="blog-details-content">
+        <div class="news-block-two">
+          <div class="inner-box">
+            <figure class="image-box"><img src="{{mainImage}}" alt="{{title}}"></figure>
+            <div class="lower-content">
+              <ul class="post-info">
+                <li><span>{{date}}</span></li>
+                <li><a href="#">{{category}}</a></li>
+              </ul>
+              <h2>{{title}}</h2>
+              <p class="pb_25">{{paragraphs.[0]}}</p>
+              <p class="pb_50">{{paragraphs.[1]}}</p>
+              <blockquote>
+                <div class="icon-box"><img src="assets/images/icons/icon-17.png" alt=""></div>
+                <p>{{quote}}</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+  
+        <div class="content-one mb_50">
+          <h3 class="mb_25">{{sectionOne.heading}}</h3>
+          <p>{{sectionOne.content}}</p>
+          <ul class="list-item clearfix">
+            {{#each sectionOne.list}}
+              <li>{{this}}</li>
+            {{/each}}
+          </ul>
+        </div>
+  
+        <div class="content-two mb_40">
+          <h3 class="mb_35">{{sectionTwo.heading}}</h3>
+          <div class="two-column">
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-md-6 col-sm-12 image-column">
+                <figure class="image-box"><img src="{{sectionTwo.image}}" alt=""></figure>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 text-column">
+                <div class="text-box">
+                  <p>{{sectionTwo.content}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text">
+            <p>{{sectionTwo.closing}}</p>
+          </div>
+        </div>
+  
+        <div class="post-share-option pb_50 mb_65">
+          <ul class="post-tag">
+            <li><h6>tags.</h6></li>
+            {{#each tags}}
+              <li><a href="#">{{this}}</a></li>
+            {{/each}}
+          </ul>
+        </div>
+  
+     
+      </div>
+    </div>
+  </script>
+
+  <!-- ✅ JavaScript to render the template -->
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const slug = params.get('slug');
+
+    fetch('services.json')
+      .then(res => res.json())
+      .then(data => {
+        if (!slug) {
+          document.getElementById('service-container').innerHTML = '<h2>No slug specified</h2>';
+          return;
+        }
+
+        const service = data.services.find(s => s.slug === slug);
+
+        if (!service) {
+          document.getElementById('service-container').innerHTML = '<h2>Service Not Found</h2>';
+          document.getElementById('dynamic-page-title').textContent = 'Service Not Found';
+          return;
+        }
+
+        // Update meta and titles
+        document.title = `${service.title} | IKON Constructions`;
+        document.getElementById('meta-description').setAttribute('content', service.description);
+        document.getElementById('dynamic-page-title').textContent = service.title;
+        document.getElementById('breadcrumb-title').textContent = service.title;
+
+        const source = document.getElementById('service-template').innerHTML;
+        const template = Handlebars.compile(source);
+        const html = template(service);
+
+        document.getElementById('service-container').innerHTML = html;
+      })
+      .catch(err => {
+        console.error('Error loading service data:', err);
+        document.getElementById('service-container').innerHTML = '<h2>Error loading service</h2>';
+      });
+  </script>
+</body>
+</html>

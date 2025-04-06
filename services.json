@@ -1,0 +1,100 @@
+{
+  "services": [
+    {
+      "slug": "peb-construction",
+      "title": "PEB Construction",
+      "date": "2024-10-12",
+      "category": "Construction",
+      "mainImage": "assets/images/news/peb-main.jpg",
+      "headline": "Innovative PEB Techniques Revolutionizing Structural Efficiency",
+      "intro": "We specialize in Pre-Engineered Building (PEB) construction that accelerates project timelines and reduces costs while delivering maximum structural integrity. From warehouses to manufacturing units, our PEB solutions are tailored to meet your industrial needs with precision and performance.",
+      "paragraphs": [
+        "Our PEB systems are fabricated off-site, ensuring minimal construction disruption and higher speed of execution. These structures are not only cost-effective but also designed with energy efficiency and long-term durability in mind.",
+        "With a focus on lightweight steel and modern cladding solutions, our projects meet international standards for safety and performance while offering architectural flexibility."
+      ],
+      "quote": "Building the future with faster, smarter PEB solutions that don’t compromise on quality.",
+      "sectionOne": {
+        "heading": "Why Choose Our PEB Services",
+        "content": "PEB construction is a game-changer in the world of industrial infrastructure. Our clients benefit from rapid build times, reliable steel components, and full customizability. We work closely with architects and structural engineers to optimize every aspect of the build.",
+        "list": [
+          "Fast-track fabrication and erection",
+          "Reduced construction waste and cost",
+          "Custom designs for specific industrial needs",
+          "Durability against environmental conditions",
+          "Low maintenance with high ROI"
+        ]
+      },
+      "sectionTwo": {
+        "heading": "Smarter Engineering, Stronger Foundations",
+        "image": "assets/images/news/peb-side.jpg",
+        "content": "We integrate smart modeling tools and precision manufacturing processes to deliver impeccable results. Whether it’s for storage, logistics, or heavy machinery housing, our PEB solutions offer unparalleled adaptability and speed. Let your project benefit from the future of construction."
+      },
+      "closing": "By opting for our PEB construction, you're choosing faster timelines, scalable infrastructure, and a team dedicated to delivering structural excellence.",
+      "tags": ["Construction", "PEB", "Steel Structures"]
+    },
+    {
+      "slug": "commercial-buildings",
+      "title": "Commercial Buildings",
+      "date": "2024-11-02",
+      "category": "Architecture",
+      "mainImage": "assets/images/news/commercial-main.jpg",
+      "headline": "Designing the Future of Business with Bold Commercial Spaces",
+      "intro": "We deliver cutting-edge commercial buildings designed to reflect your brand’s identity and foster productivity. Our focus is on combining aesthetics, sustainability, and practicality to create commercial spaces that elevate business operations.",
+      "paragraphs": [
+        "From iconic office towers to bustling retail centers, our commercial projects align with your long-term growth vision. We pay attention to every detail—design, functionality, safety, and energy optimization.",
+        "Our integrated project management ensures seamless execution, from concept to completion, making us a trusted partner for corporate and real estate clients alike."
+      ],
+      "quote": "Commercial spaces aren’t just buildings—they’re environments that shape how we work, shop, and thrive.",
+      "sectionOne": {
+        "heading": "Spaces That Speak Business",
+        "content": "Our buildings are designed not just to house businesses, but to enhance them. From employee wellness to customer experience, we consider every angle to ensure the spaces we create are built for success.",
+        "list": [
+          "LEED-certified designs",
+          "Open-plan and flexible workspaces",
+          "Energy-efficient lighting and HVAC",
+          "Premium façade architecture",
+          "Smart access control systems"
+        ]
+      },
+      "sectionTwo": {
+        "heading": "Modern Design Meets Functionality",
+        "image": "assets/images/news/commercial-side.jpg",
+        "content": "We balance creativity with logic—delivering commercial spaces that are bold, beautiful, and built to last. Whether you're looking for high-visibility retail locations or efficient office spaces, we build to serve your goals."
+      },
+      "closing": "Choose IKON for commercial spaces that reflect ambition and innovation, built with precision and integrity.",
+      "tags": ["Architecture", "Commercial", "Workplace"]
+    },
+    {
+      "slug": "villa",
+      "title": "Villa Construction",
+      "date": "2024-09-20",
+      "category": "Luxury Living",
+      "mainImage": "assets/images/news/villa-main.jpg",
+      "headline": "Crafting Bespoke Villas That Feel Like Home",
+      "intro": "Every villa we build is a blend of art and architecture—designed to reflect your personal style, while delivering comfort and luxury. Whether you dream of a minimalist sanctuary or a grand Mediterranean estate, we bring your vision to life.",
+      "paragraphs": [
+        "Our villa construction services focus on high-end detailing, energy efficiency, and seamless spatial flow. We collaborate with you to understand your lifestyle needs—from indoor pools to rooftop terraces.",
+        "Our team handles everything—from land planning and permits to interior design and handover."
+      ],
+      "quote": "A home is more than walls—it’s your sanctuary, and we craft it with care.",
+      "sectionOne": {
+        "heading": "Designed for Life, Built for Luxury",
+        "content": "We don’t just build villas—we design lifestyles. Your dream villa will be tailored down to the smallest detail, from marble flooring to smart lighting, delivering both beauty and function.",
+        "list": [
+          "Personalized architectural styles",
+          "Imported materials and fittings",
+          "Sustainable design principles",
+          "High-end automation and security",
+          "Landscaped gardens and water features"
+        ]
+      },
+      "sectionTwo": {
+        "heading": "Your Dream Villa Awaits",
+        "image": "assets/images/news/villa-side.jpg",
+        "content": "We walk with you through every step—from sketches to keys in hand. Our goal is to build a home that resonates with your personality and meets your long-term expectations of comfort and quality."
+      },
+      "closing": "Your vision. Our expertise. Together, we create more than just a house—we create your dream lifestyle.",
+      "tags": ["Villas", "Luxury", "Residential"]
+    }
+  ]
+}
