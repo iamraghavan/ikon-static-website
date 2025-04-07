@@ -1,93 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-  <title id="page-title">Loading...</title>
+<title id="page-title">Loading...</title>
   <meta name="description" id="meta-description" content="" />
 
-  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  <link href="/assets/css/style.css" rel="stylesheet" />
-  <!-- Add any other CSS you want -->
+<!-- Fav Icon -->
+<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
+<!-- Google Fonts -->
+<!-- Inter Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
+<!-- Stylesheets -->
+<link href="/assets/css/font-awesome-all.css" rel="stylesheet">
+<link href="/assets/css/flaticon.css" rel="stylesheet">
+<link href="/assets/css/owl.css" rel="stylesheet">
+<link href="/assets/css/bootstrap.css" rel="stylesheet">
+<link href="/assets/css/jquery.fancybox.min.css" rel="stylesheet">
+<link href="/assets/css/animate.css" rel="stylesheet">
+<link href="/assets/css/odometer.css" rel="stylesheet">
+<link href="/assets/css/elpath.css" rel="stylesheet">
+<link href="/assets/css/color.css" id="jssDefault" rel="stylesheet">
+<link href="/assets/css/rtl.css" rel="stylesheet">
+<link href="/assets/css/style.css" rel="stylesheet">
+<link href="/assets/css/responsive.css" rel="stylesheet">
+
 </head>
 
+
+<!-- page wrapper -->
 <body>
-  <h1 id="dynamic-page-title">Loading...</h1>
-  <div id="breadcrumb-title">Loading breadcrumb...</div>
+
+    <div class="boxed_wrapper ltr">
+
+           <!-- main header -->
+<header class="main-header header-style-two">
+    <!-- header-lower -->
+    <div class="header-lower">
+        <div class="outer-container p_relative">
+            <div class="outer-box">
+                <div class="menu-column">
+                    <figure class="logo-box">
+                        <a href="index.html">
+                            <img src="assets/images/ikon/ikon.png" alt="Ikon Construction Logo">
+                        </a>
+                    </figure>
+                    <div class="menu-area">
+                        <nav class="main-menu navbar-expand-md navbar-light clearfix">
+                            <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                <ul class="navigation clearfix">
+                                    <li class="current"><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li class="dropdown"><a href="#"> 
+                                        Our Services</a>
+                                        <ul>
+                                           <li><a href="service-detail.html?slug=peb-construction">PEB Construction</a></li>
+                                            <li><a href="service-detail.html?slug=commercial-buildings">Commercial Buildings</a></li>
+                                            <li><a href="service-detail.html?slug=villa">Villa</a></li>
+                                            <li><a href="service-detail.html?slug=apartments">Apartments</a></li>
+                                            <li><a href="service-detail.html?slug=residential-construction">Residential Construction</a></li>
+                                            <li><a href="service-detail.html?slug=architecture">Architecture</a></li>
+                                            <li><a href="service-detail.html?slug=landscape-design">Landscape Design</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="projects.html">Project</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="menu-right-content">
+                    <div class="btn-box">
+                        <a href="contact.html" class="theme-btn"><span>Get Free Quote</span></a>
+                    </div>
+                    <div class="mobile-nav-toggler"><i class="icon-16"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- sticky header -->
+    <div class="sticky-header">
+        <div class="large-container">
+            <div class="outer-box">
+                <div class="menu-column">
+                    <figure class="logo-box">
+                        <a href="index.html">
+                            <img src="assets/images/ikon/ikon_black.png" alt="Ikon Construction Logo">
+                        </a>
+                    </figure>
+                    <div class="menu-area">
+                        <nav class="main-menu clearfix">
+                            <!-- Menu will be injected by JavaScript -->
+                        </nav>
+                    </div>
+                </div>
+                <div class="menu-right-content">
+                    <div class="support-box">
+                        <div class="icon-box"><i class="icon-4"></i></div>
+                        <div class="text">
+                            <span>Call Our Support 24/7</span>
+                            <a href="tel:+918925677718">(+91) 89256 77718 / 19</a>
+                            
+                        </div>
+                    </div>
+                    <div class="btn-box">
+                        <a href="contact.html" class="theme-btn"><span>Get Free Quote</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- end main header -->
+
+<!-- mobile menu -->
+<div class="mobile-menu">
+    <div class="menu-backdrop"></div>
+    <div class="close-btn"><i class="fas fa-times"></i></div>
+    <nav class="menu-box">
+        <div class="nav-logo">
+            <a href="index.html"><img src="assets/images/ikon/ikon.png" alt="Ikon Construction Logo" title=""></a>
+        </div>
+        <div class="menu-outer"><!-- Menu will be injected by JavaScript --></div>
+        <div class="contact-info">
+            <h4>Contact Info</h4>
+            <ul>
+                <li>No.3 Villa, Sai Krishna Villas, Karanai Puducheri Village, Chengalpattu Taluk, Kanchipuram - 603202</li>
+                <li><a href="tel:+918925677718">(+91) 89256 77718</a></li>
+                <li><a href="tel:+918925677719">(+91) 89256 77719</a></li>
+                <li><a href="mailto:info@ikonconstruction.in">info@ikonconstruction.in</a></li>
+            </ul>
+        </div>
+        <div class="social-links">
+            <ul class="clearfix">
+                <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+                <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+                <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<!-- end mobile menu -->
+
+ 
+
+  <section class="page-title centred">
+    <div class="outer-container pt_120 pb_130 p_relative">
+        <div class="bg-layer" style="background-image: url(assets/images/background/page-title.jpg);"></div>
+        <div class="auto-container">
+            <div class="content-box">
+                <h1 id="dynamic-page-title">About IKON<span>.</span></h1>
+                <ul class="bread-crumb">
+                    <li><a href="services.html">services</a></li>
+                    <li id="breadcrumb-title">about</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
 
   <!-- ✅ The container where the template will be rendered -->
   <div id="service-container"></div>
 
-  <!-- ✅ Handlebars Template -->
   <script id="service-template" type="text/x-handlebars-template">
-    <div class="col-lg-8 col-md-12 col-sm-12 content-side">
-      <div class="blog-details-content">
-        <div class="news-block-two">
-          <div class="inner-box">
-            <figure class="image-box"><img src="{{mainImage}}" alt="{{title}}"></figure>
-            <div class="lower-content">
-              <ul class="post-info">
-                <li><span>{{date}}</span></li>
-                <li><a href="#">{{category}}</a></li>
-              </ul>
-              <h2>{{title}}</h2>
-              <p class="pb_25">{{paragraphs.[0]}}</p>
-              <p class="pb_50">{{paragraphs.[1]}}</p>
-              <blockquote>
-                <div class="icon-box"><img src="assets/images/icons/icon-17.png" alt=""></div>
-                <p>{{quote}}</p>
-              </blockquote>
-            </div>
-          </div>
-        </div>
-  
-        <div class="content-one mb_50">
-          <h3 class="mb_25">{{sectionOne.heading}}</h3>
-          <p>{{sectionOne.content}}</p>
-          <ul class="list-item clearfix">
-            {{#each sectionOne.list}}
-              <li>{{this}}</li>
-            {{/each}}
-          </ul>
-        </div>
-  
-        <div class="content-two mb_40">
-          <h3 class="mb_35">{{sectionTwo.heading}}</h3>
-          <div class="two-column">
-            <div class="row align-items-center">
-              <div class="col-lg-6 col-md-6 col-sm-12 image-column">
-                <figure class="image-box"><img src="{{sectionTwo.image}}" alt=""></figure>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-12 text-column">
-                <div class="text-box">
-                  <p>{{sectionTwo.content}}</p>
+    <section class="sidebar-page-container pt_120 pb_120">
+      <div class="auto-container">
+          <div class="row clearfix">
+            <div class="col-lg-8 col-md-12 col-sm-12 content-side">
+              <div class="blog-details-content">
+                <div class="news-block-two">
+                  <div class="inner-box">
+                    <figure class="image-box"><img src="{{mainImage}}" alt="{{title}}"></figure>
+                    <div class="lower-content">
+                      <ul style="display: none;" class="post-info">
+                        <li><span>{{date}}</span></li>
+                        <li><a href="#">{{category}}</a></li>
+                      </ul>
+                      <h2>{{title}}</h2>
+                      <p class="pb_25">{{paragraphs.[0]}}</p>
+                      <p class="pb_50">{{paragraphs.[1]}}</p>
+                      <blockquote>
+                        <div class="icon-box"><img src="assets/images/icons/icon-17.png" alt=""></div>
+                        <p>{{quote}}</p>
+                      </blockquote>
+                    </div>
+                  </div>
                 </div>
+          
+                <div class="content-one mb_50">
+                  <h3 class="mb_25">{{sectionOne.heading}}</h3>
+                  <p>{{sectionOne.content}}</p>
+                  <ul class="list-item clearfix">
+                    {{#each sectionOne.list}}
+                      <li>{{this}}</li>
+                    {{/each}}
+                  </ul>
+                </div>
+          
+                <div class="content-two mb_40">
+                  <h3 class="mb_35">{{sectionTwo.heading}}</h3>
+                  <div class="two-column">
+                    <div class="row align-items-center">
+                      <div class="col-lg-6 col-md-6 col-sm-12 image-column">
+                        <figure class="image-box"><img src="{{sectionTwo.image}}" alt=""></figure>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-12 text-column">
+                        <div class="text-box">
+                          <p>{{sectionTwo.content}}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text">
+                    <p>{{sectionTwo.closing}}</p>
+                  </div>
+                </div>
+          
+                <div class="post-share-option pb_50 mb_65">
+                  <ul class="post-tag">
+                    <li><h6>tags.</h6></li>
+                    {{#each tags}}
+                      <li><a href="#">{{this}}</a></li>
+                    {{/each}}
+                  </ul>
+                </div>
+          
+             
               </div>
             </div>
+              <div class="col-lg-4 col-md-12 col-sm-12 sidebar-side">
+                  <div class="blog-sidebar ml_35">
+                    
+                      <div class="sidebar-widget category-widget mb_65">
+                        <div class="widget-title mb_10">
+                          <h4>Our Services<span>.</span></h4>
+                      </div>
+                      <div class="widget-content">
+                          <ul class="category-list clearfix">
+                              <li><a href="service-detail.html?slug=peb-construction">PEB Construction</a></li>
+                              <li><a href="service-detail.html?slug=commercial-buildings">Commercial Buildings</a></li>
+                              <li><a href="service-detail.html?slug=villa">Villa</a></li>
+                              <li><a href="service-detail.html?slug=apartments">Apartments</a></li>
+                              <li><a href="service-detail.html?slug=residential-construction">Residential Construction</a></li>
+                              <li><a href="service-detail.html?slug=architecture">Architecture</a></li>
+                              <li><a href="service-detail.html?slug=landscape-design">Landscape Design</a></li>
+                          </ul>
+                      </div>
+                      
+                      </div>
+                     
+                      <div class="sidebar-widget tags-widget mb_60">
+                          <div class="widget-title mb_25">
+                              <h4>tags<span>.</span></h4>
+                          </div>
+                          <div class="widget-content">
+                              <ul class="tags-list clearfix">
+                                {{#each tags}}
+                                  <li><a href="">{{this}}</a></li>
+                                  {{/each}}
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="ads-widget">
+                          <div class="shape" style="background-image: url(assets/images/shape/shape-14.png);"></div>
+                          <figure class="image-box"><img src="assets/images/resource/vector-1.png" alt=""></figure>
+                          <h3>Contact our Team</h3>
+                          <p>Creative, functional, and bold architectural solutions by IKON.</p>
+
+                          <a href="contact.html" class="theme-btn"><span>request a quote</span></a>
+                      </div>
+                  </div>
+              </div>
           </div>
-          <div class="text">
-            <p>{{sectionTwo.closing}}</p>
-          </div>
-        </div>
-  
-        <div class="post-share-option pb_50 mb_65">
-          <ul class="post-tag">
-            <li><h6>tags.</h6></li>
-            {{#each tags}}
-              <li><a href="#">{{this}}</a></li>
-            {{/each}}
-          </ul>
-        </div>
-  
-     
       </div>
-    </div>
+  </section>
   </script>
+
+
+
+  <!-- ✅ Handlebars Template -->
+ 
 
   <!-- ✅ JavaScript to render the template -->
   <script>
@@ -127,5 +327,140 @@
         document.getElementById('service-container').innerHTML = '<h2>Error loading service</h2>';
       });
   </script>
-</body>
+
+  <footer class="main-footer pt_65">
+    <div class="auto-container">
+        <figure class="image-box"><img src="assets/images/resource/footer-1.jpg" alt=""></figure>
+        <div class="widget-section p_relative pt_90 pb_90">
+            <div class="row clearfix">
+                <!-- Logo & Message -->
+                <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                    <div class="footer-widget logo-widget">
+                        <figure class="footer-logo"><a href="index.html"><img src="assets/images/ikon/ikon.png" alt="IKON Construction Logo"></a></figure>
+                        <p>Building your vision, from foundation to finish!</p>
+                        <div class="support-box">
+                            <div class="icon-box"><i class="icon-4"></i></div>
+                            <div class="text">
+                                <span>Call Our Support 24/7</span>
+                                <a href="tel:+918925677718">(+91) 89256 77718 / 19</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                    <div class="footer-widget contact-widget">
+                        <div class="widget-title">
+                            <h6>GET IN TOUCH<span>.</span></h6>
+                        </div>
+                        <div class="widget-content">
+                            <h6>Our Office</h6>
+                            <ul class="info-list clearfix">
+                                <li><i class="icon-1"></i>No.3 Villa, Sai Krishna Villas, Karanai Puducheri Village,<br> Chengalpattu Taluk, Kanchipuram - 603202</li>
+                                <li><i class="icon-3"></i><a href="mailto:info@ikonconstruction.in">info@ikonconstruction.in</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Menu Links -->
+                <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
+                    <div class="footer-widget links-widget">
+                        <div class="widget-title">
+                            <h6>MENU<span>.</span></h6>
+                        </div>
+                        <div class="widget-content">
+                            <ul class="links-list clearfix">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                
+                                <li><a href="projects.html">Projects</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="service.html">Services</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
+                    <div class="footer-widget links-widget">
+                        <div class="widget-title">
+                            <h6>Our Services<span>.</span></h6>
+                        </div>
+                        <div class="widget-content">
+                            <ul class="links-list clearfix">
+                                <li><a href="service.html">PEB Construction</a></li>
+                                <li><a href="service.html">Commercial Buildings</a></li>
+                                <li><a href="service.html">Villa</a></li>
+                                <li><a href="service.html">Apartments</a></li>
+                                <li><a href="service.html">Residential Construction</a></li>
+                                <li><a href="service.html">Architecture</a></li>
+                                <li><a href="service.html">Landscape Design</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="bottom-inner">
+                <div class="left-column">
+                    <div class="copyright mb_50">
+                        <p>© 2025 IKON Construction. All Rights Reserved.</p>
+                    </div>
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="right-column">
+                    <div class="counter-box">
+                        <div class="count-outer"><span class="odometer" data-count="30">1.2</span><span class="symble">+</span></div>
+                        <p>Completed Projects</p>
+                    </div>
+                    <div class="counter-box">
+                        <div class="count-outer"><span class="odometer" data-count="32">4.8</span><span class="symble">+</span></div>
+                        <p>Happy Customers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div class="scroll-to-top scroll-top-active">
+    <svg class="scroll-top-inner" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 7.46137;"></path>
+    </svg>
+</div>
+
+</div>
+
+<!-- jequery plugins -->
+<script src="/assets/js/jquery.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/owl.js"></script>
+<script src="/assets/js/wow.js"></script>
+<script src="/assets/js/validation.js"></script>
+<script src="/assets/js/jquery.fancybox.js"></script>
+<script src="/assets/js/appear.js"></script>
+<script src="/assets/js/isotope.js"></script>
+<script src="/assets/js/parallax-scroll.js"></script>
+<script src="/assets/js/scrolltop.min.js"></script>
+<script src="/assets/js/jquery.lettering.min.js"></script>
+<script src="/assets/js/jquery.circleType.js"></script>
+<script src="/assets/js/odometer.js"></script>
+
+<!-- main-js -->
+<script src="/assets/js/script.js"></script>
+
+</body><!-- End of .page_wrapper -->
 </html>

@@ -5,7 +5,7 @@
       "title": "PEB Construction",
       "date": "2024-10-12",
       "category": "Construction",
-      "mainImage": "assets/images/news/peb-main.jpg",
+      "mainImage": "assets/images/ikon/starpebindia-peb-ware-house-3.jpg",
       "headline": "Innovative PEB Techniques Revolutionizing Structural Efficiency",
       "intro": "We specialize in Pre-Engineered Building (PEB) construction that accelerates project timelines and reduces costs while delivering maximum structural integrity. From warehouses to manufacturing units, our PEB solutions are tailored to meet your industrial needs with precision and performance.",
       "paragraphs": [
@@ -26,7 +26,7 @@
       },
       "sectionTwo": {
         "heading": "Smarter Engineering, Stronger Foundations",
-        "image": "assets/images/news/peb-side.jpg",
+        "image": "assets/images/ikon/Peb-Industrial-Shed.jpg",
         "content": "We integrate smart modeling tools and precision manufacturing processes to deliver impeccable results. Whether it’s for storage, logistics, or heavy machinery housing, our PEB solutions offer unparalleled adaptability and speed. Let your project benefit from the future of construction."
       },
       "closing": "By opting for our PEB construction, you're choosing faster timelines, scalable infrastructure, and a team dedicated to delivering structural excellence.",
@@ -37,7 +37,7 @@
       "title": "Commercial Buildings",
       "date": "2024-11-02",
       "category": "Architecture",
-      "mainImage": "assets/images/news/commercial-main.jpg",
+      "mainImage": "assets/images/ikon/pexels-pixabay-269077.jpg",
       "headline": "Designing the Future of Business with Bold Commercial Spaces",
       "intro": "We deliver cutting-edge commercial buildings designed to reflect your brand’s identity and foster productivity. Our focus is on combining aesthetics, sustainability, and practicality to create commercial spaces that elevate business operations.",
       "paragraphs": [
@@ -58,7 +58,7 @@
       },
       "sectionTwo": {
         "heading": "Modern Design Meets Functionality",
-        "image": "assets/images/news/commercial-side.jpg",
+        "image": "https://img.freepik.com/free-photo/beautiful-architecture-office-business-building-with-glass-window-shape_74190-9954.jpg",
         "content": "We balance creativity with logic—delivering commercial spaces that are bold, beautiful, and built to last. Whether you're looking for high-visibility retail locations or efficient office spaces, we build to serve your goals."
       },
       "closing": "Choose IKON for commercial spaces that reflect ambition and innovation, built with precision and integrity.",
@@ -69,7 +69,7 @@
       "title": "Villa Construction",
       "date": "2024-09-20",
       "category": "Luxury Living",
-      "mainImage": "assets/images/news/villa-main.jpg",
+      "mainImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dmlsbGF8ZW58MHx8MHx8fDA%3D",
       "headline": "Crafting Bespoke Villas That Feel Like Home",
       "intro": "Every villa we build is a blend of art and architecture—designed to reflect your personal style, while delivering comfort and luxury. Whether you dream of a minimalist sanctuary or a grand Mediterranean estate, we bring your vision to life.",
       "paragraphs": [
@@ -90,11 +90,150 @@
       },
       "sectionTwo": {
         "heading": "Your Dream Villa Awaits",
-        "image": "assets/images/news/villa-side.jpg",
+        "image": "https://plus.unsplash.com/premium_photo-1682377521625-c656fc1ff3e1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHZpbGxhfGVufDB8fDB8fHww&crop=entropy&cs=tinysrgb",
         "content": "We walk with you through every step—from sketches to keys in hand. Our goal is to build a home that resonates with your personality and meets your long-term expectations of comfort and quality."
       },
       "closing": "Your vision. Our expertise. Together, we create more than just a house—we create your dream lifestyle.",
       "tags": ["Villas", "Luxury", "Residential"]
+    },
+    {
+      "slug": "apartments",
+      "title": "Modern Apartment Living",
+      "date": "2024-09-20",
+      "category": "Residential Construction",
+      "mainImage": "https://images.unsplash.com/photo-1612637968894-660373e23b03?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "headline": "Innovative Spaces for Urban Living",
+      "intro": "Whether it's a sleek high-rise or a cozy garden apartment, our residential construction projects are designed with community, efficiency, and modern lifestyles in mind. We merge architectural innovation with everyday functionality to create places people are proud to call home.",
+      "paragraphs": [
+        "Our apartment developments are built for contemporary living—smart layouts, sustainable materials, and amenities that elevate your daily life.",
+        "From site planning to architectural design and final fit-outs, we manage the entire process with precision and passion."
+      ],
+      "quote": "Where design meets purpose—your home should enhance the way you live.",
+      "sectionOne": {
+        "heading": "Form, Function & Timeless Design",
+        "content": "We believe architecture should be both visionary and practical. Our residential buildings are shaped by lifestyle needs, location context, and future-forward materials—resulting in spaces that are efficient, elegant, and enduring.",
+        "list": [
+          "Contextual and climate-responsive design",
+          "Energy-efficient building envelopes",
+          "Innovative floorplans and communal zones",
+          "Natural lighting and ventilation focus",
+          "Durable, low-maintenance materials"
+        ]
+      },
+      "sectionTwo": {
+        "heading": "Greenspaces That Breathe Life Into Communities",
+        "image": "https://plus.unsplash.com/premium_photo-1678963247798-0944cf6ba34d?q=80&w=1939&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "content": "From rooftop gardens to landscaped courtyards, we integrate greenery into every layer of our designs. Our landscape architects craft outdoor spaces that promote relaxation, biodiversity, and a deeper connection to nature—even in the heart of the city."
+      },
+      "closing": "From concept to completion, we build more than homes—we build livable, lovable communities where architecture and landscape work in harmony.",
+      "tags": [
+        "Apartments",
+        "Residential Construction",
+        "Architecture",
+        "Landscape Design"
+      ]
+    },
+    {
+      "slug": "residential-construction",
+      "title": "Building Homes with Heart",
+      "date": "2024-09-20",
+      "category": "Residential Construction",
+      "mainImage": "https://images.unsplash.com/photo-1593012671976-1422185230fb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "headline": "Crafting Thoughtful Homes from the Ground Up",
+      "intro": "Our residential construction approach blends architecture, innovation, and craftsmanship to deliver homes that reflect how people truly live. From single-family dwellings to bespoke estates, we build with a vision for quality and legacy.",
+      "paragraphs": [
+        "Every project is a collaboration between clients, architects, and craftsmen. We take pride in delivering homes that are not only structurally sound but also deeply personal.",
+        "From foundations to finishes, we ensure every element reflects attention to detail and long-term value."
+      ],
+      "quote": "Great homes begin with great design—and are built to last for generations.",
+      "sectionOne": {
+        "heading": "Architecture That Tells Your Story",
+        "content": "Our architectural philosophy centers on the harmony of aesthetics and functionality. We shape spaces that are timeless, adaptive, and rooted in the surrounding environment.",
+        "list": [
+          "Tailored design solutions",
+          "Site-specific planning",
+          "Sustainable material sourcing",
+          "Smart spatial organization",
+          "Collaboration with leading architects"
+        ]
+      },
+      "sectionTwo": {
+        "heading": "Landscapes that Elevate Living",
+        "image": "https://images.unsplash.com/photo-1580063665421-4c9cbe9ec11b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "content": "We integrate landscape design into every home project, enhancing aesthetics, comfort, and sustainability. From private courtyards to open gardens, our landscapes are curated for beauty and connection to nature."
+      },
+      "closing": "We don’t just construct houses—we create environments where life unfolds naturally and beautifully.",
+      "tags": ["Residential Construction", "Architecture", "Landscape Design"]
+    },
+    {
+      "slug": "architecture",
+      "title": "Architecture with Purpose",
+      "date": "2024-09-20",
+      "category": "Architecture",
+      "mainImage": "https://thearchitectsdiary.com/wp-content/uploads/2023/02/Arch2O-architectural-sketching-10-architecture-sketching-tips-1-1024x585.jpg",
+      "headline": "Design That Reflects Identity and Innovation",
+      "intro": "Our architectural designs are a fusion of vision and functionality. From residential sanctuaries to iconic public spaces, we craft structures that serve people and elevate environments.",
+      "paragraphs": [
+        "We approach each project as a unique narrative—rooted in its environment, informed by its purpose, and driven by design excellence.",
+        "With every structure, we aim to create a timeless experience that balances beauty, efficiency, and sustainability."
+      ],
+      "quote": "Architecture is not just what you see, but how you feel within it.",
+      "sectionOne": {
+        "heading": "Thoughtful Spaces, Timeless Forms",
+        "content": "We blend contemporary thinking with contextual awareness. Every design evolves from careful site study, user needs, and an intent to uplift the daily experience.",
+        "list": [
+          "Site-responsive planning",
+          "Minimalist to expressive design styles",
+          "Energy-efficient building strategies",
+          "Advanced 3D visualization and BIM modeling",
+          "Collaborative concept development"
+        ]
+      },
+      "sectionTwo": {
+        "heading": "From Vision to Built Reality",
+        "image": "https://plus.unsplash.com/premium_photo-1681550097108-187abe10d445?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "content": "From concept sketches to technical execution, we manage the entire design journey. Our collaborative process ensures your vision is respected, refined, and realized with precision."
+      },
+      "closing": "We design spaces that speak quietly, yet profoundly—to those who inhabit them and the landscapes they live within.",
+      "tags": ["Architecture", "Design", "Sustainability", "Built Environment"]
+    },
+
+    {
+      "slug": "landscape-design",
+      "title": "Landscape Design",
+      "date": "2024-09-20",
+      "category": "Landscape Design",
+      "mainImage": "/assets/images/ikon/dennis7dees-residential-landscape_pnw-hillside-landscape-10.jpg",
+      "headline": "Designing Outdoor Spaces That Inspire",
+      "intro": "Our landscape designs are crafted to bring beauty, functionality, and a deep sense of tranquility to every environment. From intimate gardens to expansive estates, we shape nature to complement the architecture and elevate daily living.",
+      "paragraphs": [
+        "Each landscape project begins with understanding the land—its light, slope, soil, and potential. We then design with purpose, using natural materials, native plants, and water-wise strategies.",
+        "We create immersive outdoor environments that feel both intentional and organic, with seamless transitions between indoor and outdoor living."
+      ],
+      "quote": "Nature is the most beautiful canvas—we simply shape it to tell your story.",
+      "sectionOne": {
+        "heading": "Crafting Living Landscapes",
+        "content": "Our approach to landscape design is rooted in sustainability, aesthetics, and emotional connection. We believe outdoor spaces should grow with you and evolve gracefully over time.",
+        "list": [
+          "Native and climate-appropriate planting",
+          "Custom garden layouts and themes",
+          "Water features and natural pools",
+          "Outdoor kitchens and lounge areas",
+          "Pathways, lighting, and hardscaping"
+        ]
+      },
+      "sectionTwo": {
+        "heading": "A Sanctuary in Every Space",
+        "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGxhbmRzY2FwZSUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D",
+        "content": "Whether designing for a private residence, resort, or urban rooftop, we tailor every element to create a sense of calm, flow, and natural elegance. Your outdoor space becomes a place to connect—with nature, with others, and with yourself."
+      },
+      "closing": "From soil to skyline, we turn outdoor spaces into living works of art—crafted for comfort, connection, and timeless beauty.",
+      "tags": [
+        "Landscape Design",
+        "Gardens",
+        "Outdoor Living",
+        "Sustainable Landscaping"
+      ]
     }
   ]
 }
